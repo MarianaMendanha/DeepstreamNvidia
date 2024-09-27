@@ -1,0 +1,404 @@
+TRT-8503-EntropyCalibration2
+input_1:0: 3c010a14
+conv1/convolution:0: 3e7c3590
+(Unnamed Layer* 1) [Constant]_output: 36a64491
+(Unnamed Layer* 2) [Shuffle]_output: 36a64491
+conv1/BiasAdd:0: 3e7c3592
+(Unnamed Layer* 4) [Constant]_output: 3c19ba51
+bn_conv1/batchnorm/mul_1:0: 3d9a9a54
+(Unnamed Layer* 6) [Constant]_output: 3d033a68
+bn_conv1/batchnorm/add_1:0: 3d73c80b
+activation_1/Relu6:0: 3d418f1e
+block_1a_conv_shortcut/BiasAdd:0: 3e6476fd
+(Unnamed Layer* 10) [Constant]_output: 3be1aa51
+block_1a_bn_shortcut/batchnorm/mul_1:0: 3ddeff43
+(Unnamed Layer* 12) [Constant]_output: 3d5941b8
+block_1a_bn_shortcut/batchnorm/add_1:0: 3d20a6d9
+block_1a_conv_1/convolution:0: 3f5ab87d
+(Unnamed Layer* 15) [Constant]_output: 345dea54
+(Unnamed Layer* 16) [Shuffle]_output: 345dea54
+block_1a_conv_1/BiasAdd:0: 3f5ab87d
+(Unnamed Layer* 18) [Constant]_output: 3ac2387a
+block_1a_bn_1/batchnorm/mul_1:0: 3e050c9b
+(Unnamed Layer* 20) [Constant]_output: 3ce841e2
+block_1a_bn_1/batchnorm/add_1:0: 3e2140e9
+block_1a_relu_1/Relu6:0: 3d32e9d4
+block_1a_conv_2/convolution:0: 3ecdfe78
+(Unnamed Layer* 24) [Constant]_output: 3417e7ce
+(Unnamed Layer* 25) [Shuffle]_output: 3417e7ce
+block_1a_conv_2/BiasAdd:0: 3ecdfe78
+(Unnamed Layer* 27) [Constant]_output: 3b105e35
+block_1a_bn_2/batchnorm/mul_1:0: 3dbaf439
+(Unnamed Layer* 29) [Constant]_output: 3d482ea6
+block_1a_bn_2/batchnorm/add_1:0: 3da162ca
+add_1/add:0: 3e2a73c1
+block_1a_relu/Relu6:0: 3d418f1e
+block_1b_conv_shortcut/BiasAdd:0: 3e9eed0b
+(Unnamed Layer* 34) [Constant]_output: 3b9472ab
+block_1b_bn_shortcut/batchnorm/mul_1:0: 3dd38149
+(Unnamed Layer* 36) [Constant]_output: 3d06bd4f
+block_1b_bn_shortcut/batchnorm/add_1:0: 3da7f438
+block_1b_conv_1/convolution:0: 3f7240ec
+(Unnamed Layer* 39) [Constant]_output: 340e6a4a
+(Unnamed Layer* 40) [Shuffle]_output: 340e6a4a
+block_1b_conv_1/BiasAdd:0: 3f7240ec
+(Unnamed Layer* 42) [Constant]_output: 3b0e6a28
+block_1b_bn_1/batchnorm/mul_1:0: 3df54464
+(Unnamed Layer* 44) [Constant]_output: 3d10f2d1
+block_1b_bn_1/batchnorm/add_1:0: 3de69972
+block_1b_relu_1/Relu6:0: 3d32d1a3
+block_1b_conv_2/convolution:0: 3ee7b434
+(Unnamed Layer* 48) [Constant]_output: 33f62e43
+(Unnamed Layer* 49) [Shuffle]_output: 33f62e43
+block_1b_conv_2/BiasAdd:0: 3ee7b434
+(Unnamed Layer* 51) [Constant]_output: 3b454dc5
+block_1b_bn_2/batchnorm/mul_1:0: 3dcb94d0
+(Unnamed Layer* 53) [Constant]_output: 3d0e4b60
+block_1b_bn_2/batchnorm/add_1:0: 3dea6585
+add_2/add:0: 3de93c5a
+block_1b_relu/Relu6:0: 3d418f1e
+block_1c_conv_shortcut/BiasAdd:0: 3e9f5acb
+(Unnamed Layer* 58) [Constant]_output: 3e6a8f8f
+block_1c_bn_shortcut/batchnorm/mul_1:0: 3e5ecddc
+(Unnamed Layer* 60) [Constant]_output: 3d6121f8
+block_1c_bn_shortcut/batchnorm/add_1:0: 3e0476aa
+block_1c_conv_1/convolution:0: 3f4221f7
+(Unnamed Layer* 63) [Constant]_output: 337d4a21
+(Unnamed Layer* 64) [Shuffle]_output: 337d4a21
+block_1c_conv_1/BiasAdd:0: 3f4221f7
+(Unnamed Layer* 66) [Constant]_output: 3da5a587
+block_1c_bn_1/batchnorm/mul_1:0: 3da03fdc
+(Unnamed Layer* 68) [Constant]_output: 3c8174fd
+block_1c_bn_1/batchnorm/add_1:0: 3d8c9957
+block_1c_relu_1/Relu6:0: 3d244a09
+block_1c_conv_2/convolution:0: 3e8c1f17
+(Unnamed Layer* 72) [Constant]_output: 33b8afe5
+(Unnamed Layer* 73) [Shuffle]_output: 33b8afe5
+block_1c_conv_2/BiasAdd:0: 3e8c1f17
+(Unnamed Layer* 75) [Constant]_output: 3b824732
+block_1c_bn_2/batchnorm/mul_1:0: 3de6bb73
+(Unnamed Layer* 77) [Constant]_output: 3ca78b25
+block_1c_bn_2/batchnorm/add_1:0: 3d9c9d30
+add_3/add:0: 3e077811
+block_1c_relu/Relu6:0: 3d418f1e
+block_2a_conv_shortcut/BiasAdd:0: 3e69ce7d
+(Unnamed Layer* 82) [Constant]_output: 3a753e03
+block_2a_bn_shortcut/batchnorm/mul_1:0: 3cbc54ab
+(Unnamed Layer* 84) [Constant]_output: 3c464fe3
+block_2a_bn_shortcut/batchnorm/add_1:0: 3d0e5da8
+block_2a_conv_1/convolution:0: 3f8da0f6
+(Unnamed Layer* 87) [Constant]_output: 33344476
+(Unnamed Layer* 88) [Shuffle]_output: 33344476
+block_2a_conv_1/BiasAdd:0: 3f8da0f6
+(Unnamed Layer* 90) [Constant]_output: 3a59f9a1
+block_2a_bn_1/batchnorm/mul_1:0: 3dea1653
+(Unnamed Layer* 92) [Constant]_output: 3cc5735b
+block_2a_bn_1/batchnorm/add_1:0: 3dd7b4df
+block_2a_relu_1/Relu6:0: 3d418f1e
+block_2a_conv_2/convolution:0: 3f30bbb0
+(Unnamed Layer* 96) [Constant]_output: 3343b66b
+(Unnamed Layer* 97) [Shuffle]_output: 3343b66b
+block_2a_conv_2/BiasAdd:0: 3f30bbaf
+(Unnamed Layer* 99) [Constant]_output: 3b1ec1c5
+block_2a_bn_2/batchnorm/mul_1:0: 3e02bb2d
+(Unnamed Layer* 101) [Constant]_output: 3d5fe2b2
+block_2a_bn_2/batchnorm/add_1:0: 3dd49311
+add_4/add:0: 3dd66b25
+block_2a_relu/Relu6:0: 3d418f1e
+block_2b_conv_shortcut/BiasAdd:0: 3f113b46
+(Unnamed Layer* 106) [Constant]_output: 3b42c103
+block_2b_bn_shortcut/batchnorm/mul_1:0: 3da566c8
+(Unnamed Layer* 108) [Constant]_output: 3d1e3866
+block_2b_bn_shortcut/batchnorm/add_1:0: 3d989be4
+block_2b_conv_1/convolution:0: 3f64ac38
+(Unnamed Layer* 111) [Constant]_output: 332fcdfc
+(Unnamed Layer* 112) [Shuffle]_output: 332fcdfc
+block_2b_conv_1/BiasAdd:0: 3f64ac38
+(Unnamed Layer* 114) [Constant]_output: 3dd176e4
+block_2b_bn_1/batchnorm/mul_1:0: 3e07cecd
+(Unnamed Layer* 116) [Constant]_output: 3d4262ac
+block_2b_bn_1/batchnorm/add_1:0: 3df92ae2
+block_2b_relu_1/Relu6:0: 3d418f1e
+block_2b_conv_2/convolution:0: 3ea3b6cb
+(Unnamed Layer* 120) [Constant]_output: 33ecec01
+(Unnamed Layer* 121) [Shuffle]_output: 33ecec01
+block_2b_conv_2/BiasAdd:0: 3ea3b6cb
+(Unnamed Layer* 123) [Constant]_output: 3b74d5c8
+block_2b_bn_2/batchnorm/mul_1:0: 3dcf48c4
+(Unnamed Layer* 125) [Constant]_output: 3c9dc769
+block_2b_bn_2/batchnorm/add_1:0: 3dcb7935
+add_5/add:0: 3e02f7ec
+block_2b_relu/Relu6:0: 3d418f1e
+block_2c_conv_shortcut/BiasAdd:0: 3ef71de9
+(Unnamed Layer* 130) [Constant]_output: 3e4c3ab0
+block_2c_bn_shortcut/batchnorm/mul_1:0: 3da5fa28
+(Unnamed Layer* 132) [Constant]_output: 3d2341a9
+block_2c_bn_shortcut/batchnorm/add_1:0: 3d6d5ff5
+block_2c_conv_1/convolution:0: 3f5474ab
+(Unnamed Layer* 135) [Constant]_output: 33865543
+(Unnamed Layer* 136) [Shuffle]_output: 33865543
+block_2c_conv_1/BiasAdd:0: 3f5474ab
+(Unnamed Layer* 138) [Constant]_output: 3dfccb6f
+block_2c_bn_1/batchnorm/mul_1:0: 3db1c0b6
+(Unnamed Layer* 140) [Constant]_output: 3d2140a3
+block_2c_bn_1/batchnorm/add_1:0: 3db069f4
+block_2c_relu_1/Relu6:0: 3d317efe
+block_2c_conv_2/convolution:0: 3e920c84
+(Unnamed Layer* 144) [Constant]_output: 33b5df3b
+(Unnamed Layer* 145) [Shuffle]_output: 33b5df3b
+block_2c_conv_2/BiasAdd:0: 3e920c84
+(Unnamed Layer* 147) [Constant]_output: 3d483568
+block_2c_bn_2/batchnorm/mul_1:0: 3db7a1c5
+(Unnamed Layer* 149) [Constant]_output: 3c3f0e34
+block_2c_bn_2/batchnorm/add_1:0: 3d967d11
+add_6/add:0: 3db90473
+block_2c_relu/Relu6:0: 3d418f1e
+block_2d_conv_shortcut/BiasAdd:0: 3e9b70a5
+(Unnamed Layer* 154) [Constant]_output: 3b389ab9
+block_2d_bn_shortcut/batchnorm/mul_1:0: 3d9da453
+(Unnamed Layer* 156) [Constant]_output: 3cfc09d7
+block_2d_bn_shortcut/batchnorm/add_1:0: 3d8641ce
+block_2d_conv_1/convolution:0: 3f3f2282
+(Unnamed Layer* 159) [Constant]_output: 33319f77
+(Unnamed Layer* 160) [Shuffle]_output: 33319f77
+block_2d_conv_1/BiasAdd:0: 3f3f2282
+(Unnamed Layer* 162) [Constant]_output: 3ab91d85
+block_2d_bn_1/batchnorm/mul_1:0: 3da14e1f
+(Unnamed Layer* 164) [Constant]_output: 3d270842
+block_2d_bn_1/batchnorm/add_1:0: 3d9ef0b3
+block_2d_relu_1/Relu6:0: 3d418f1e
+block_2d_conv_2/convolution:0: 3ec43a3f
+(Unnamed Layer* 168) [Constant]_output: 33afed07
+(Unnamed Layer* 169) [Shuffle]_output: 33afed07
+block_2d_conv_2/BiasAdd:0: 3ec43a3f
+(Unnamed Layer* 171) [Constant]_output: 3b39b881
+block_2d_bn_2/batchnorm/mul_1:0: 3db5fd57
+(Unnamed Layer* 173) [Constant]_output: 3cafe86f
+block_2d_bn_2/batchnorm/add_1:0: 3da8d734
+add_7/add:0: 3dd5e076
+block_2d_relu/Relu6:0: 3d418f1e
+block_3a_conv_shortcut/BiasAdd:0: 3e4f5eff
+(Unnamed Layer* 178) [Constant]_output: 3aebacee
+block_3a_bn_shortcut/batchnorm/mul_1:0: 3ce0fbff
+(Unnamed Layer* 180) [Constant]_output: 3c99ffc3
+block_3a_bn_shortcut/batchnorm/add_1:0: 3d1dad88
+block_3a_conv_1/convolution:0: 3f5f1eef
+(Unnamed Layer* 183) [Constant]_output: 32bb4ffe
+(Unnamed Layer* 184) [Shuffle]_output: 32bb4ffe
+block_3a_conv_1/BiasAdd:0: 3f5f1eef
+(Unnamed Layer* 186) [Constant]_output: 3e01a805
+block_3a_bn_1/batchnorm/mul_1:0: 3d81e1e4
+(Unnamed Layer* 188) [Constant]_output: 3cb6c382
+block_3a_bn_1/batchnorm/add_1:0: 3d3022a3
+block_3a_relu_1/Relu6:0: 3d418f1e
+block_3a_conv_2/convolution:0: 3f564606
+(Unnamed Layer* 192) [Constant]_output: 32ccd60b
+(Unnamed Layer* 193) [Shuffle]_output: 32ccd60b
+block_3a_conv_2/BiasAdd:0: 3f564606
+(Unnamed Layer* 195) [Constant]_output: 3b27a94e
+block_3a_bn_2/batchnorm/mul_1:0: 3e239912
+(Unnamed Layer* 197) [Constant]_output: 3dab591c
+block_3a_bn_2/batchnorm/add_1:0: 3dbb0b47
+add_8/add:0: 3deb78e3
+block_3a_relu/Relu6:0: 3d418f1e
+block_3b_conv_shortcut/BiasAdd:0: 3f20ec4e
+(Unnamed Layer* 202) [Constant]_output: 3b66c68b
+block_3b_bn_shortcut/batchnorm/mul_1:0: 3dede245
+(Unnamed Layer* 204) [Constant]_output: 3d347e1b
+block_3b_bn_shortcut/batchnorm/add_1:0: 3dc2a441
+block_3b_conv_1/convolution:0: 3f80547d
+(Unnamed Layer* 207) [Constant]_output: 3384b07e
+(Unnamed Layer* 208) [Shuffle]_output: 3384b07e
+block_3b_conv_1/BiasAdd:0: 3f80547d
+(Unnamed Layer* 210) [Constant]_output: 3e30dda4
+block_3b_bn_1/batchnorm/mul_1:0: 3db9f55d
+(Unnamed Layer* 212) [Constant]_output: 3cfd5c0a
+block_3b_bn_1/batchnorm/add_1:0: 3d9dc61e
+block_3b_relu_1/Relu6:0: 3d418f1e
+block_3b_conv_2/convolution:0: 3ebe7008
+(Unnamed Layer* 216) [Constant]_output: 3377e3d0
+(Unnamed Layer* 217) [Shuffle]_output: 3377e3d0
+block_3b_conv_2/BiasAdd:0: 3ebe7006
+(Unnamed Layer* 219) [Constant]_output: 3b845953
+block_3b_bn_2/batchnorm/mul_1:0: 3deb83ba
+(Unnamed Layer* 221) [Constant]_output: 3cab9d32
+block_3b_bn_2/batchnorm/add_1:0: 3df21c9a
+add_9/add:0: 3e11d121
+block_3b_relu/Relu6:0: 3d418f1e
+block_3c_conv_shortcut/BiasAdd:0: 3f288d66
+(Unnamed Layer* 226) [Constant]_output: 3b5cd928
+block_3c_bn_shortcut/batchnorm/mul_1:0: 3dd0ba94
+(Unnamed Layer* 228) [Constant]_output: 3d0bd60b
+block_3c_bn_shortcut/batchnorm/add_1:0: 3dc9a62e
+block_3c_conv_1/convolution:0: 3f8790e5
+(Unnamed Layer* 231) [Constant]_output: 32cab57b
+(Unnamed Layer* 232) [Shuffle]_output: 32cab57b
+block_3c_conv_1/BiasAdd:0: 3f8790e5
+(Unnamed Layer* 234) [Constant]_output: 3a8f6660
+block_3c_bn_1/batchnorm/mul_1:0: 3db79a59
+(Unnamed Layer* 236) [Constant]_output: 3c8b0875
+block_3c_bn_1/batchnorm/add_1:0: 3dbaa788
+block_3c_relu_1/Relu6:0: 3d418f1e
+block_3c_conv_2/convolution:0: 3f287d44
+(Unnamed Layer* 240) [Constant]_output: 33653f1a
+(Unnamed Layer* 241) [Shuffle]_output: 33653f1a
+block_3c_conv_2/BiasAdd:0: 3f287d44
+(Unnamed Layer* 243) [Constant]_output: 3b55c194
+block_3c_bn_2/batchnorm/mul_1:0: 3debe909
+(Unnamed Layer* 245) [Constant]_output: 3cdc4d4d
+block_3c_bn_2/batchnorm/add_1:0: 3de6985e
+add_10/add:0: 3e1ef7b5
+block_3c_relu/Relu6:0: 3d418f1e
+block_3d_conv_shortcut/BiasAdd:0: 3f25f9fe
+(Unnamed Layer* 250) [Constant]_output: 3b8aec07
+block_3d_bn_shortcut/batchnorm/mul_1:0: 3ddce44d
+(Unnamed Layer* 252) [Constant]_output: 3d103acd
+block_3d_bn_shortcut/batchnorm/add_1:0: 3dc92fdc
+block_3d_conv_1/convolution:0: 3f4bcf02
+(Unnamed Layer* 255) [Constant]_output: 33248a55
+(Unnamed Layer* 256) [Shuffle]_output: 33248a55
+block_3d_conv_1/BiasAdd:0: 3f4bcf02
+(Unnamed Layer* 258) [Constant]_output: 3dccf912
+block_3d_bn_1/batchnorm/mul_1:0: 3db52e45
+(Unnamed Layer* 260) [Constant]_output: 3cdb20dd
+block_3d_bn_1/batchnorm/add_1:0: 3dab4821
+block_3d_relu_1/Relu6:0: 3d430f10
+block_3d_conv_2/convolution:0: 3ed69c22
+(Unnamed Layer* 264) [Constant]_output: 33440e3a
+(Unnamed Layer* 265) [Shuffle]_output: 33440e3a
+block_3d_conv_2/BiasAdd:0: 3ed69c22
+(Unnamed Layer* 267) [Constant]_output: 3ba821f8
+block_3d_bn_2/batchnorm/mul_1:0: 3dfae830
+(Unnamed Layer* 269) [Constant]_output: 3d3c5daf
+block_3d_bn_2/batchnorm/add_1:0: 3e08e2ce
+add_11/add:0: 3e203863
+block_3d_relu/Relu6:0: 3d418f1e
+block_3e_conv_shortcut/BiasAdd:0: 3f1bddd1
+(Unnamed Layer* 274) [Constant]_output: 3bad8fa7
+block_3e_bn_shortcut/batchnorm/mul_1:0: 3dd82ae1
+(Unnamed Layer* 276) [Constant]_output: 3d29aca2
+block_3e_bn_shortcut/batchnorm/add_1:0: 3df63300
+block_3e_conv_1/convolution:0: 3f5e0da0
+(Unnamed Layer* 279) [Constant]_output: 331f8aab
+(Unnamed Layer* 280) [Shuffle]_output: 331f8aab
+block_3e_conv_1/BiasAdd:0: 3f5e0da0
+(Unnamed Layer* 282) [Constant]_output: 3e209812
+block_3e_bn_1/batchnorm/mul_1:0: 3ddc9ad0
+(Unnamed Layer* 284) [Constant]_output: 3c9d5e4e
+block_3e_bn_1/batchnorm/add_1:0: 3daaa8d8
+block_3e_relu_1/Relu6:0: 3d418f1e
+block_3e_conv_2/convolution:0: 3f24f8b7
+(Unnamed Layer* 288) [Constant]_output: 33338feb
+(Unnamed Layer* 289) [Shuffle]_output: 33338feb
+block_3e_conv_2/BiasAdd:0: 3f24f8b7
+(Unnamed Layer* 291) [Constant]_output: 3b8c6dba
+block_3e_bn_2/batchnorm/mul_1:0: 3e1ee656
+(Unnamed Layer* 293) [Constant]_output: 3d68c987
+block_3e_bn_2/batchnorm/add_1:0: 3e002e73
+add_12/add:0: 3e33e931
+block_3e_relu/Relu6:0: 3d418f1e
+block_3f_conv_shortcut/BiasAdd:0: 3f27bd1d
+(Unnamed Layer* 298) [Constant]_output: 3bd6e2a1
+block_3f_bn_shortcut/batchnorm/mul_1:0: 3e195b47
+(Unnamed Layer* 300) [Constant]_output: 3d3fbcbe
+block_3f_bn_shortcut/batchnorm/add_1:0: 3e1c6e34
+block_3f_conv_1/convolution:0: 3fc8f47d
+(Unnamed Layer* 303) [Constant]_output: 3340dea0
+(Unnamed Layer* 304) [Shuffle]_output: 3340dea0
+block_3f_conv_1/BiasAdd:0: 3fc8f47d
+(Unnamed Layer* 306) [Constant]_output: 3af33a26
+block_3f_bn_1/batchnorm/mul_1:0: 3e07a366
+(Unnamed Layer* 308) [Constant]_output: 3cf35481
+block_3f_bn_1/batchnorm/add_1:0: 3e0ccef8
+block_3f_relu_1/Relu6:0: 3d418f1e
+block_3f_conv_2/convolution:0: 3ee6d1be
+(Unnamed Layer* 312) [Constant]_output: 33d91fc2
+(Unnamed Layer* 313) [Shuffle]_output: 33d91fc2
+block_3f_conv_2/BiasAdd:0: 3ee6d1bc
+(Unnamed Layer* 315) [Constant]_output: 3c1eee82
+block_3f_bn_2/batchnorm/mul_1:0: 3e2787d4
+(Unnamed Layer* 317) [Constant]_output: 3d0d08f2
+block_3f_bn_2/batchnorm/add_1:0: 3e1b0fc8
+add_13/add:0: 3e59d595
+block_3f_relu/Relu6:0: 3d418f1e
+block_4a_conv_shortcut/BiasAdd:0: 3f0c7caf
+(Unnamed Layer* 322) [Constant]_output: 3b63953d
+block_4a_bn_shortcut/batchnorm/mul_1:0: 3dbf563a
+(Unnamed Layer* 324) [Constant]_output: 3cfe20db
+block_4a_bn_shortcut/batchnorm/add_1:0: 3d9f1a79
+block_4a_conv_1/convolution:0: 3fc6b138
+(Unnamed Layer* 327) [Constant]_output: 331485d4
+(Unnamed Layer* 328) [Shuffle]_output: 331485d4
+block_4a_conv_1/BiasAdd:0: 3fc6b138
+(Unnamed Layer* 330) [Constant]_output: 3ae15241
+block_4a_bn_1/batchnorm/mul_1:0: 3ddd0392
+(Unnamed Layer* 332) [Constant]_output: 3caa33d8
+block_4a_bn_1/batchnorm/add_1:0: 3dd9d15c
+block_4a_relu_1/Relu6:0: 3d418f1e
+block_4a_conv_2/convolution:0: 3f14f4dc
+(Unnamed Layer* 336) [Constant]_output: 33b6ac26
+(Unnamed Layer* 337) [Shuffle]_output: 33b6ac26
+block_4a_conv_2/BiasAdd:0: 3f14f4db
+(Unnamed Layer* 339) [Constant]_output: 3ee64aae
+block_4a_bn_2/batchnorm/mul_1:0: 3e287ec1
+(Unnamed Layer* 341) [Constant]_output: 3d04c374
+block_4a_bn_2/batchnorm/add_1:0: 3e0eee45
+add_14/add:0: 3e1fe0f9
+block_4a_relu/Relu6:0: 3d418f1e
+block_4b_conv_shortcut/BiasAdd:0: 3eb78e68
+(Unnamed Layer* 346) [Constant]_output: 3c04375e
+block_4b_bn_shortcut/batchnorm/mul_1:0: 3de84698
+(Unnamed Layer* 348) [Constant]_output: 3cd2b8d4
+block_4b_bn_shortcut/batchnorm/add_1:0: 3dc6d40c
+block_4b_conv_1/convolution:0: 3f871b29
+(Unnamed Layer* 351) [Constant]_output: 343e5289
+(Unnamed Layer* 352) [Shuffle]_output: 343e5289
+block_4b_conv_1/BiasAdd:0: 3f871b29
+(Unnamed Layer* 354) [Constant]_output: 3e230bb0
+block_4b_bn_1/batchnorm/mul_1:0: 3df5ae90
+(Unnamed Layer* 356) [Constant]_output: 3ccbcc54
+block_4b_bn_1/batchnorm/add_1:0: 3dd79809
+block_4b_relu_1/Relu6:0: 3d418f1e
+block_4b_conv_2/convolution:0: 3f69132b
+(Unnamed Layer* 360) [Constant]_output: 34083385
+(Unnamed Layer* 361) [Shuffle]_output: 34083385
+block_4b_conv_2/BiasAdd:0: 3f69132d
+(Unnamed Layer* 363) [Constant]_output: 3bfa41a6
+block_4b_bn_2/batchnorm/mul_1:0: 3e71f9cb
+(Unnamed Layer* 365) [Constant]_output: 3d6f61cb
+block_4b_bn_2/batchnorm/add_1:0: 3e4133d2
+add_15/add:0: 3e4b50df
+block_4b_relu/Relu6:0: 3d418f1e
+block_4c_conv_shortcut/BiasAdd:0: 3fa58cc9
+(Unnamed Layer* 370) [Constant]_output: 3abdb52e
+block_4c_bn_shortcut/batchnorm/mul_1:0: 3da6005f
+(Unnamed Layer* 372) [Constant]_output: 3c8c698e
+block_4c_bn_shortcut/batchnorm/add_1:0: 3dacf79f
+block_4c_conv_1/convolution:0: 404332a9
+(Unnamed Layer* 375) [Constant]_output: 33be5d53
+(Unnamed Layer* 376) [Shuffle]_output: 33be5d53
+block_4c_conv_1/BiasAdd:0: 404332a9
+(Unnamed Layer* 378) [Constant]_output: 3a5f9d24
+block_4c_bn_1/batchnorm/mul_1:0: 3dbaf53f
+(Unnamed Layer* 380) [Constant]_output: 3ce0af77
+block_4c_bn_1/batchnorm/add_1:0: 3dcf4420
+block_4c_relu_1/Relu6:0: 3d418f1e
+block_4c_conv_2/convolution:0: 3fff8d8f
+(Unnamed Layer* 384) [Constant]_output: 39927b88
+(Unnamed Layer* 385) [Shuffle]_output: 39927b88
+block_4c_conv_2/BiasAdd:0: 3fff8e92
+(Unnamed Layer* 387) [Constant]_output: 3b12b63a
+block_4c_bn_2/batchnorm/mul_1:0: 3df44eda
+(Unnamed Layer* 389) [Constant]_output: 3d2c9896
+block_4c_bn_2/batchnorm/add_1:0: 3daf5a7b
+add_16/add:0: 3ddb51e3
+block_4c_relu/Relu6:0: 3d418f1e
+output_cov/convolution:0: 3fb4d550
+(Unnamed Layer* 394) [Constant]_output: 3d327c25
+(Unnamed Layer* 395) [Shuffle]_output: 3d327c25
+output_cov/BiasAdd:0: 3fba1d03
+output_cov/Sigmoid:0: 3bfe40a1
+output_bbox/convolution:0: 3de63df8
+(Unnamed Layer* 399) [Constant]_output: 3c2bf00a
+(Unnamed Layer* 400) [Shuffle]_output: 3c2bf00a
+output_bbox/BiasAdd:0: 3df28715
